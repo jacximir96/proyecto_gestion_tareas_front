@@ -48,11 +48,17 @@ Instrucciones de instalación y configuración
 
    ng build --configuration production
 
-7. Iniciar el servidor con http-server
+7. Iniciar el servidor con: 
 
-    cd dist/tu-nombre-de-app/browser
+   HTTP-SERVER:
 
-    http-server -p 4200 (Puedes poner el puerto que requieras que esté levantado)
+   - cd dist/tu-nombre-de-app/browser
+   - http-server -p 4200 (Puedes poner el puerto que requieras que esté levantado)
+
+   SERVE:
+
+   - cd dist/tu-nombre-de-app/browser
+   - serve -s . -l 4200 (Puedes poner el puerto que requieras que esté levantado)
 
 8. Visualizar aplicativo en la web
 
